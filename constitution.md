@@ -20,12 +20,15 @@ Text should be displayed both with and without audio playback. During playback, 
 - Clean Code principles
 - SOLID principles
 - Test-Driven Development (TDD)
-- Create a Minimum Viable Product (MVP) with each development step
+- Create multiple app releases as Minimum Viable Products (MVP) which each can be used as a standalone product, but which together form a more complete product. Each MVP should be fully functional and provide value to users, while also allowing for iterative development and improvement over time.
 
 ## Security Rules
 - ✅ No API keys in code
 - ✅ Use `.env` for sensitive data
 
+## AI rules
+- Destructive functions must be controlled and verified by a human
+    
 ## Documentation
 - Clear README.md with:
   - Installation instructions

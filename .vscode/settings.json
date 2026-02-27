@@ -1,0 +1,13 @@
+{
+  "swift.sourcekit-lsp.serverPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
+  "sourcekit-lsp.trace.server": "verbose",
+  "[swift]": {
+    "editor.defaultFormatter": "vknabel.vscode-swift-format",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "sourcekit-lsp.serverArguments": [],
+  "editor.rulers": [100, 120]
+}
