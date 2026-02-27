@@ -5,12 +5,12 @@ let package = Package(
     name: "epubTTS",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v15),
-        .macOS(.v12)
+        .iOS(.v17)
     ],
     products: [
         .executable(name: "epubTTS", targets: ["epubTTSApp"]),
         .library(name: "epubTTSCore", targets: ["epubTTSCore"]),
+        .library(name: "epubTTSReader", targets: ["epubTTSReader"]),
     ],
     dependencies: [
         // Add external dependencies here if needed
@@ -21,9 +21,18 @@ let package = Package(
             dependencies: [],
             path: "Sources/Core"
         ),
+        .target(
+            name: "epubTTSReader",
+            dependencies: ["epubTTSCore"],
+            path: "Sources/Reader",
+            linkerSettings: [
+                .linkedFramework("CoreData"),
+                .linkedFramework("SwiftUI")
+            ]
+        ),
         .executableTarget(
             name: "epubTTSApp",
-            dependencies: ["epubTTSCore"],
+            dependencies: ["epubTTSCore", "epubTTSReader"],
             path: "Sources/App",
             linkerSettings: [
                 .linkedFramework("SwiftUI"),
@@ -32,7 +41,7 @@ let package = Package(
         ),
         .testTarget(
             name: "epubTTSTests",
-            dependencies: ["epubTTSCore"],
+            dependencies: ["epubTTSCore", "epubTTSReader"],
             path: "Tests/epubTTSTests"
         ),
     ]

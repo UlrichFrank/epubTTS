@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/master.swiftdeps"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.dia"
+  }
+}

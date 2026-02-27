@@ -1,0 +1,1331 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.xctest/Contents/MacOS/epubTTSPackageTests",
+      "packagePath" : "/Users/ulrich.frank/Dev/private/epubTTS",
+      "productName" : "epubTTSPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.epubTTSApp-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/sources",
+      "importPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/App/Main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSReader.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "epubTTSApp",
+      "moduleOutputPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSApp.swiftmodule",
+      "objects" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/Main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "epubTTSApp_main",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "epubtts"
+      ],
+      "outputFileMapPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/Main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/App/Main.swift"
+      ],
+      "tempsPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.epubTTSCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/sources",
+      "importPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioPlayerError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubChapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubMetadata.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/FileService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "epubTTSCore",
+      "moduleOutputPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSCore.swiftmodule",
+      "objects" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioPlayerError.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioStatus.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubChapter.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubFile.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubMetadata.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubService.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/FileService.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/Logger.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/include/epubTTSCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "epubtts"
+      ],
+      "outputFileMapPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioPlayerError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubChapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/FileService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioPlayerError.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioStatus.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubChapter.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubFile.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubMetadata.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubService.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/FileService.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/Logger.swift"
+      ],
+      "tempsPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.epubTTSPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/sources",
+      "importPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "epubTTSPackageTests",
+      "moduleOutputPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/include/epubTTSPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "epubtts"
+      ],
+      "outputFileMapPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.epubTTSReader-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/sources",
+      "importPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/CoreDataStack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Models/TextModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/CSSParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/ChunkingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/HTMLParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "epubTTSReader",
+      "moduleOutputPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSReader.swiftmodule",
+      "objects" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/include/epubTTSReader-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "epubtts"
+      ],
+      "outputFileMapPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSReader.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/CoreDataStack.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Models/TextModels.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/CSSParser.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/ChunkingService.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/HTMLParser.swift"
+      ],
+      "tempsPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.epubTTSTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/sources",
+      "importPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Phase2Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Release2/Phase1Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSReader.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "epubTTSTests",
+      "moduleOutputPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSTests.swiftmodule",
+      "objects" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.swift.o",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "epubtts"
+      ],
+      "outputFileMapPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules/epubTTSTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Phase2Tests.swift",
+        "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Release2/Phase1Tests.swift"
+      ],
+      "tempsPath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "epubTTSApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "epubTTSApp",
+      "-package-name",
+      "epubtts",
+      "-c",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/App/Main.swift",
+      "-I",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "epubTTSApp_main",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "epubtts",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "epubTTSCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "epubTTSCore",
+      "-package-name",
+      "epubtts",
+      "-c",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioPlayerError.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioStatus.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubChapter.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubFile.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubMetadata.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubService.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/FileService.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/Logger.swift",
+      "-I",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/include/epubTTSCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "epubtts",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "epubTTSPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "epubTTSPackageTests",
+      "-package-name",
+      "epubtts",
+      "-c",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/include/epubTTSPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "epubtts",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "epubTTSReader" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "epubTTSReader",
+      "-package-name",
+      "epubtts",
+      "-c",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/CoreDataStack.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Models/TextModels.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/CSSParser.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/ChunkingService.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/HTMLParser.swift",
+      "-I",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/include/epubTTSReader-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "epubtts",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "epubTTSTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "epubTTSTests",
+      "-package-name",
+      "epubtts",
+      "-c",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Phase2Tests.swift",
+      "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Release2/Phase1Tests.swift",
+      "-I",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "epubtts",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "epubTTSApp" : [
+      "epubTTSReader",
+      "epubTTSCore"
+    ],
+    "epubTTSCore" : [
+
+    ],
+    "epubTTSPackageTests" : [
+      "epubTTSTests",
+      "epubTTSReader",
+      "epubTTSCore"
+    ],
+    "epubTTSReader" : [
+      "epubTTSCore"
+    ],
+    "epubTTSTests" : [
+      "epubTTSReader",
+      "epubTTSCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS-entitlement.plist"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/Main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioPlayerError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubChapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/FileService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.product/Objects.LinkFileList"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/App/Main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSApp.build/sources"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioPlayerError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/AudioStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubChapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubMetadata.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/EPubService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/FileService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Core/Logger.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/sources"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/sources"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioPlayerError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/AudioStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubChapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/EPubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/FileService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/CoreDataStack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Models/TextModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/CSSParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/ChunkingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/HTMLParser.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/sources"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Phase2Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Release2/Phase1Tests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/sources"
+    },
+    "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

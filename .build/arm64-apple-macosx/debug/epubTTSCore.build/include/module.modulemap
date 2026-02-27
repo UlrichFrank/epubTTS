@@ -1,0 +1,3 @@
+module epubTTSCore {
+    header "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSCore.build/include/epubTTSCore-Swift.h"
+}

@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/master.swiftdeps"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/CoreDataStack.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CoreDataStack.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Models/TextModels.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/TextModels.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/CSSParser.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/CSSParser.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/ChunkingService.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/ChunkingService.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/Reader/Services/HTMLParser.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSReader.build/HTMLParser.dia"
+  }
+}

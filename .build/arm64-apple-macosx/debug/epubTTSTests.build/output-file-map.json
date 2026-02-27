@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/master.swiftdeps"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Phase2Tests.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase2Tests.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Tests/epubTTSTests/Release2/Phase1Tests.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTSTests.build/Phase1Tests.dia"
+  }
+}

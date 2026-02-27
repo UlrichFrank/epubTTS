@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/master.swiftdeps"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/AudioPlayerError.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerError.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerError.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerError~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerError.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerError.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/AudioPlayerView.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerView.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerView.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerView.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerView.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/AudioPlayerViewModel.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerViewModel.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerViewModel.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerViewModel.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioPlayerViewModel.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/AudioService.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioService.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioService.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioService.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioService.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/AudioStatus.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioStatus.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioStatus.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioStatus~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioStatus.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/AudioStatus.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/EPubChapter.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubChapter.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubChapter.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubChapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubChapter.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubChapter.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/EPubFile.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubFile.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubFile.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubFile.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubFile.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/EPubMetadata.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubMetadata.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubMetadata.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubMetadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubMetadata.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubMetadata.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/EPubService.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubService.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubService.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubService.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/EPubService.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/FileService.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/FileService.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/FileService.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/FileService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/FileService.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/FileService.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/Logger.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/Logger.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/Logger.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/Logger.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/Logger.dia"
+  },
+  "/Users/ulrich.frank/Dev/private/epubTTS/Sources/epubTTS/epubTTSApp.swift": {
+    "dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/epubTTSApp.d",
+    "object": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/epubTTSApp.swift.o",
+    "swiftmodule": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/epubTTSApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/epubTTSApp.swiftdeps",
+    "diagnostics": "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/epubTTSApp.dia"
+  }
+}

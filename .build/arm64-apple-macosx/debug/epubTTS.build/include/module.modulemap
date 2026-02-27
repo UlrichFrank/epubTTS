@@ -1,0 +1,3 @@
+module epubTTS {
+    header "/Users/ulrich.frank/Dev/private/epubTTS/.build/arm64-apple-macosx/debug/epubTTS.build/include/epubTTS-Swift.h"
+}
