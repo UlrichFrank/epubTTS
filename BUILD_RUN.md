@@ -159,6 +159,21 @@ swift test --filter Phase2Tests
 swift test -v
 ```
 
+### ⚠️ Wichtig: `swift test` vs `xcodebuild test`
+
+**✅ RICHTIG für Swift Packages:**
+```bash
+swift test
+```
+
+**❌ FALSCH für Swift Packages:**
+```bash
+# Wird fehlschlagen mit: "Scheme epubTTS is not configured for test action"
+xcodebuild test -scheme epubTTS
+```
+
+**Warum?** Swift Packages haben keine Xcode Schemes. Nutze immer `swift test` für dieses Projekt.
+
 ---
 
 ## Projekt Struktur
